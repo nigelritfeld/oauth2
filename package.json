@@ -1,0 +1,38 @@
+{
+  "name": "claire-oath-server",
+  "version": "1.0.0",
+  "description": "Oath server for mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node public/index.js",
+    "dev": "nodemon public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlimited-hr/oauth-sever.git"
+  },
+  "author": "Nigel Ritfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlimited-hr/oauth-sever/issues"
+  },
+  "homepage": "https://github.com/unlimited-hr/oauth-sever#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "jose": "^4.8.1",
+    "jwk-to-pem": "^2.0.5",
+    "mariadb": "^3.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
