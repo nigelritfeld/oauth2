@@ -1,6 +1,8 @@
 ## Claire AI - OATH2 Server
 
-This repository contains the source code for the authentication server for Claire AI Project.
+This repository holds the source code for the authentication server of the Claire AI Project. In this collaborative project, I developed an application responsible for user authentication within our mobile application context. Our team collectively crafted a mobile app alongside a set of REST APIs. These APIs serve to link an Internet of Things (IoT) device to the online realm, furnishing it with valuable insights.
+
+Specifically, for our school project, I orchestrated the creation of an OAuth2 server. This server plays a vital role in an infrastructure akin to Google Home, which we constructed to interface with the IoT device we had built.
 
 ### Implemented flow
 A user will be authenticated with the given credentials. After succesful authentication the client receives an access token to acces the api for user data server.
